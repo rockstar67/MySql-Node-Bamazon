@@ -1,0 +1,24 @@
+{
+  "name": "mysql-node-bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockstar67/MySql-Node-Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockstar67/MySql-Node-Bamazon/issues"
+  },
+  "homepage": "https://github.com/rockstar67/MySql-Node-Bamazon#readme"
+}
