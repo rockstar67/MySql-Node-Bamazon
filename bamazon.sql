@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS bamazon_superDB;
+DROP DATABASE IF EXISTS bamazon;
 
-CREATE DATABASE bamazon_superDB;
+CREATE DATABASE bamazon;
 
-USE bamazon_superDB;
+USE bamazon;
 
 CREATE TABLE products (
   item_id INTEGER(11) AUTO_INCREMENT  NOT NULL,
@@ -13,17 +13,19 @@ CREATE TABLE products (
   PRIMARY KEY (item_id)
 );
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Student Pack', 'Books', 200.00, 100),
-        ('Energy drinks', 'Food and Drink', 24.00, 25),
-        ('Tablets', 'Electronics', 399.00, 50),
-        ('Backpack', 'Apparel', 40.00, 35),
-        ('Student life', 'Books', 15.00, 25),
-        ('Push scooter', 'Sporting', 50.00, 30),
-        ('Throw blanket', 'Apparel', 35.00, 50),
-        ('Snack pack', 'Food and Drink', 15.00, 50),
-        ('Monopoly board', 'Games', 25.00, 30),
-        ('Music pass', 'Electronics', 60.00, 50),
+Select * FROM products;
+
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (101, 'Student Pack', 'Books', 200.00, 100),
+        (202, 'Energy drinks', 'Food and Drink', 24.00, 25),
+        (312, 'Tablets', 'Electronics', 399.00, 50),
+        (420, 'Backpack', 'Apparel', 40.00, 35),
+        (503, 'Student life', 'Books', 15.00, 25),
+        (619, 'Push scooter', 'Sporting', 50.00, 30),
+        (720, 'Throw blanket', 'Apparel', 35.00, 50),
+        (808, 'Snack pack', 'Food and Drink', 15.00, 50),
+        (912, 'Monopoly board', 'Games', 25.00, 30),
+        (1010, 'Music pass', 'Electronics', 60.00, 50)
 
 
 

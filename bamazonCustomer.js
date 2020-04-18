@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   	port: 3306,
   	user: "root",
   	password: "Loslocos459$",
-  	database: 'bamazon_superDB'
+  	database: 'bamazon'
 })
 
 // Initialze connection
