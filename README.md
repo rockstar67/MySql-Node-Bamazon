@@ -25,4 +25,5 @@ This product database contains 10 different items
 * mySQL Workbench
 * Node.js
 
+![image](https://user-images.githubusercontent.com/56149337/79680912-cdd63a80-81c9-11ea-81f7-c1734b2e13c4.png)
 
