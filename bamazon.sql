@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS bamazon;
+DROP DATABASE IF EXISTS bamazon_DB;
 
-CREATE DATABASE bamazon;
+CREATE DATABASE bamazon_DB;
 
-USE bamazon;
+USE bamazon_DB;
 
 CREATE TABLE products (
   item_id INTEGER(11) AUTO_INCREMENT  NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE products (
   PRIMARY KEY (item_id)
 );
 
-Select * FROM products;
+Select * FROM bamazon.products;
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
 VALUES (101, 'Student Pack', 'Books', 200.00, 100),
